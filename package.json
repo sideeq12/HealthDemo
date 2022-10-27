@@ -1,0 +1,19 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "About to do the week2 project by deploying smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sideeq Abdwaheed",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
