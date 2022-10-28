@@ -6,7 +6,7 @@ async function mainb(){
     const HelloWorld = await ethers.getContractFactory("HelloWorld");
     const hello_world  = await HelloWorld.deploy("testing");
 
-    console.log("the contract is deployed to address : ", hello_world.address)
+    console.log("My contract address is : ", hello_world.address)
 
 }
 
